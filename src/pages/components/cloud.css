@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  
+}
+
+
+.parallax{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+  
+}
+
+
+.sky {
+  transform: translateZ(-10px) scale(2);
+}
+
+.mount1{
+  transform: translateZ(-10px) scale(2.2);
+}
+
+.mount2{
+  transform: translateZ(-10px) scale(2);
+}
+
+.mount3 {
+  transform: translateZ(-8px) translateY(20px) translateX(-50px) scale(1.9);
+}
+
+.cloud2{
+  transform: translateZ(-8px) scale(1.7);
+}
+
+.cloud3 {
+  transform: translateZ(-1px) scale(1.2);
+}
+
+.cloudMask{
+  transform: translateZ(1px) scale(1.2);
+  
+}
+
+.parallax > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* z-index: -1; */
+
+}
+
+#hero{
+  z-index: 0;
+  font-size: 800;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  align-self: center;
+  font-weight: 1000;
+  font-size: 5em;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.438));
+  top: 23em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+  z-index: 2;
+  
+}
+
+#center-hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+/* .image_container{
+  position: relative;
+  display: inline-block;
+
+}
+.downarrow{
+  transition: transform 0.3s ease;
+  
+
+  
+}
+.image_container:hover .downarrow{
+  /* transform: translateY(7px); */
+  /* transform: translateY(50px); */
+  /* bottom: 50px; 
+  transform: translate(0, 10px);
+} */
+
+/* @keyframes shake {
+ 
+  100% { transform: translate(0px, 11px) rotate(0deg); }
+
+}
+
+.downarrow:hover {
+  animation: shake 0.5s forwards;
+  animation-iteration-count: one;
+  
+} */
+#image_container{  
+  z-index: 2;
+  position: relative;
+}
+
+#downarrow{
+  z-index: 2;
+  position: relative;
+
+}
+
