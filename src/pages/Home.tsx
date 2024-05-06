@@ -67,7 +67,7 @@ function Home() {
               <ul className="sections">
                 <li><a href="#home">Home</a></li>
                 <li><a href="https://github.com/Aruliya">Projects</a></li>
-                <li><a href="https://drive.google.com/file/d/1Po3ryQWp-uhV7UZiGhG4fY7jN1MJGOql/view?usp=sharing">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1B9fFNV2WqlHgUFsR-4NSMISI8uqxhM3F/view?usp=sharing">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
               <button className="hiButton">
