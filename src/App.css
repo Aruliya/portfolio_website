@@ -490,8 +490,15 @@ input:focus {
 }
 
 .sec6{
-  margin: 1em;
+  /* margin: 1em; */
+  
   display: flex;
   justify-content: center;
-  color:rgb(0, 123, 255);
+  color:#007bff;
+  background-color: #7fb2ff;
+}
+
+.copyright{
+  margin-bottom: 1.2em;
+  font-size: 1.2em;
 }
