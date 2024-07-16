@@ -165,10 +165,10 @@ function Home() {
               <motion.p variants={variants}>aruliyaasokan@gmail.com</motion.p>
               <br/><br/>
               <motion.h3 variants={variants}>Address</motion.h3>
-              <motion.p variants={variants}>xyz</motion.p>
+              <motion.p variants={variants}>Bhopal, MP</motion.p>
               <br/><br/>
               <motion.h3 variants={variants}> Phone</motion.h3>
-              <motion.p variants={variants}> +123XXXX</motion.p>
+              <motion.p variants={variants}> +91 7974357454</motion.p>
             </motion.div>
             
             <div className='formContainer'>
